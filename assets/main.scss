@@ -3,11 +3,11 @@
 ---
 
 // QCMC 2027 — color palette
-// uOttawa garnet: #9D1939
+// uOttawa garnet: #8F001A
 // NRC / GC Web navy: #26374A
 
 // Override Minima's brand color (used for links and accents) before importing
-$brand-color: #9D1939;
+$brand-color: #8F001A;
 
 @import "minima";
 
@@ -15,7 +15,7 @@ $brand-color: #9D1939;
 .site-header {
   background-color: #26374A;
   border-top: none;
-  border-bottom: 4px solid #9D1939;
+  border-bottom: 4px solid #8F001A;
   z-index: 10; // keep the mobile menu above the home banner
 }
 
@@ -63,11 +63,11 @@ $brand-color: #9D1939;
 
 // ——— Links ————————————————————————————————————
 a {
-  color: #9D1939;
+  color: #8F001A;
 }
 
 a:visited {
-  color: #7a1230;
+  color: #6B0014;
 }
 
 // ——— Headings —————————————————————————————————
@@ -118,7 +118,7 @@ body {
 .button:visited {
   display: inline-block;
   padding: 0.6em 1.4em;
-  background-color: #9D1939;
+  background-color: #8F001A;
   color: #ffffff;
   border-radius: 4px;
   font-weight: 600;
@@ -127,7 +127,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: #7a1230;
+  background-color: #6B0014;
   color: #ffffff;
   text-decoration: none;
 }
@@ -180,7 +180,7 @@ body {
   font-size: 1.15em;
   margin: 0;
   padding-top: 0.6em;
-  border-top: 3px solid #9D1939;
+  border-top: 3px solid #8F001A;
   display: inline-block;
 }
 

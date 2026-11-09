@@ -47,7 +47,7 @@ The conference covers the following subject areas:
 ## Organized by
 
 <div class="organizers">
-  <a href="https://www.uottawa.ca/" title="University of Ottawa"><img src="/assets/images/uottawa-logo.png" alt="University of Ottawa logo" width="440" height="327"></a>
+  <a href="https://www.uottawa.ca/" title="University of Ottawa"><img src="/assets/images/uottawa-logo.png" alt="University of Ottawa logo" width="1128" height="379"></a>
   <a href="https://nrc.canada.ca/" title="National Research Council Canada"><img src="/assets/images/nrc-logo.png" alt="National Research Council Canada logo" width="497" height="242"></a>
 </div>
 
