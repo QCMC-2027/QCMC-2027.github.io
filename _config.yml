@@ -4,6 +4,7 @@ description: >-
   Measurement and Computing. August 9–13, 2027 · University of Ottawa, Canada.
 baseurl: ""
 url: "https://www.qcmc2027.com"
+email: info@qcmc2027.com
 
 theme: minima
 

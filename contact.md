@@ -8,7 +8,7 @@ permalink: /contact/
 
 For inquiries about QCMC 2027, please contact the local organizing committee.
 
-**Email:** *Coming soon*
+**Email:** [info@qcmc2027.com](mailto:info@qcmc2027.com)
 
 ---
 

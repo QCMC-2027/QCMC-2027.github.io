@@ -3,11 +3,11 @@
 ---
 
 // QCMC 2027 — color palette
-// uOttawa garnet: #9D1939
+// uOttawa garnet: #8F001A
 // NRC / GC Web navy: #26374A
 
 // Override Minima's brand color (used for links and accents) before importing
-$brand-color: #9D1939;
+$brand-color: #8F001A;
 
 @import "minima";
 
@@ -15,7 +15,8 @@ $brand-color: #9D1939;
 .site-header {
   background-color: #26374A;
   border-top: none;
-  border-bottom: 4px solid #9D1939;
+  border-bottom: 4px solid #8F001A;
+  z-index: 10; // keep the mobile menu above the home banner
 }
 
 .site-title,
@@ -39,6 +40,14 @@ $brand-color: #9D1939;
   fill: #ffffff;
 }
 
+// Mobile dropdown: navy box so the white icon and links are visible
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: #26374A;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
 // ——— Footer ———————————————————————————————————
 .site-footer {
   background-color: #26374A;
@@ -54,11 +63,11 @@ $brand-color: #9D1939;
 
 // ——— Links ————————————————————————————————————
 a {
-  color: #9D1939;
+  color: #8F001A;
 }
 
 a:visited {
-  color: #7a1230;
+  color: #6B0014;
 }
 
 // ——— Headings —————————————————————————————————
@@ -95,4 +104,102 @@ hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 2.5em 0;
+}
+
+// ——— Body text ————————————————————————————————
+body {
+  color: #333333;
+  background-color: #ffffff;
+  overflow-x: clip; // prevents sideways scroll from the full-width hero
+}
+
+// ——— Buttons ——————————————————————————————————
+.button,
+.button:visited {
+  display: inline-block;
+  padding: 0.6em 1.4em;
+  background-color: #8F001A;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #6B0014;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+// ——— Home hero banner —————————————————————————
+// Breaks out of the centred content column to span the full viewport width.
+.hero {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: -30px; // cancel minima's .page-content top padding
+  margin-bottom: 2.5em;
+  background-color: #26374A;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+// Darkens a background photo (when added) so the text stays readable
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(38, 55, 74, 0.6);
+}
+
+.hero-inner {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4.5em 16px;
+}
+
+.hero-eyebrow {
+  font-size: 0.95em;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5em;
+  opacity: 0.9;
+}
+
+.hero .hero-title {
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+.hero-meta {
+  font-size: 1.15em;
+  margin: 0;
+  padding-top: 0.6em;
+  border-top: 3px solid #8F001A;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .hero-inner { padding: 3em 16px; }
+  .hero .hero-title { font-size: 2.2em; }
+}
+
+// ——— Organized-by logo strip ——————————————————
+.organizers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+  margin: 1.5em 0;
+}
+
+.organizers img {
+  height: 90px;
+  width: auto;
 }
