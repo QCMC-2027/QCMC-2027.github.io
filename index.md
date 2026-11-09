@@ -20,6 +20,16 @@ The QCMC series was established in Paris in 1990 and has since held 16 conferenc
 
 ---
 
+## Important Dates
+
+| Event | Date |
+|:--- |:--- |
+| Conference | August 9–13, 2027 |
+
+*Registration deadlines, abstract submission dates, and further details will be announced soon.*
+
+---
+
 ## Scope
 
 The conference covers the following subject areas:
@@ -31,16 +41,6 @@ The conference covers the following subject areas:
 - Quantum Information Theory
 - Quantum Control and Engineering
 - Foundations of Quantum Physics
-
----
-
-## Important Dates
-
-| Event | Date |
-|:--- |:--- |
-| Conference | August 9–13, 2027 |
-
-*Registration deadlines, abstract submission dates, and further details will be announced soon.*
 
 ---
 
