@@ -1,8 +1,16 @@
 ---
 layout: home
-title: Home
 list_title: "News"
 ---
+
+<!-- To add a background photo later, add: style="background-image: url('/assets/images/ottawa.jpg')" -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">17th International Conference on Quantum Communication, Measurement and Computing</p>
+    <h1 class="hero-title">QCMC 2027</h1>
+    <p class="hero-meta">August 9–13, 2027 · University of Ottawa, Ottawa, Canada</p>
+  </div>
+</section>
 
 ## About QCMC 2027
 
@@ -33,5 +41,14 @@ The conference covers the following subject areas:
 | Conference | August 9–13, 2027 |
 
 *Registration deadlines, abstract submission dates, and further details will be announced soon.*
+
+---
+
+## Organized by
+
+<div class="organizers">
+  <a href="https://www.uottawa.ca/" title="University of Ottawa"><img src="/assets/images/uottawa-logo.png" alt="University of Ottawa logo" width="440" height="327"></a>
+  <a href="https://nrc.canada.ca/" title="National Research Council Canada"><img src="/assets/images/nrc-logo.png" alt="National Research Council Canada logo" width="497" height="242"></a>
+</div>
 
 ---
