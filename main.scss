@@ -1,0 +1,98 @@
+---
+# Only the main scss file needs front matter (even empty) for Jekyll to process it.
+---
+
+// QCMC 2027 — color palette
+// uOttawa garnet: #9D1939
+// NRC / GC Web navy: #26374A
+
+// Override Minima's brand color (used for links and accents) before importing
+$brand-color: #9D1939;
+
+@import "minima";
+
+// ——— Header ———————————————————————————————————
+.site-header {
+  background-color: #26374A;
+  border-top: none;
+  border-bottom: 4px solid #9D1939;
+}
+
+.site-title,
+.site-title:visited,
+.site-title:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-nav .page-link {
+  color: #ffffff;
+}
+
+.site-nav .page-link:hover {
+  color: #f0d0d7;
+  text-decoration: none;
+}
+
+// Hamburger icon on mobile
+.site-nav .menu-icon > svg path {
+  fill: #ffffff;
+}
+
+// ——— Footer ———————————————————————————————————
+.site-footer {
+  background-color: #26374A;
+  border-top: none;
+}
+
+.site-footer,
+.footer-col-wrapper,
+.site-footer a,
+.site-footer a:visited {
+  color: #c8c8c8;
+}
+
+// ——— Links ————————————————————————————————————
+a {
+  color: #9D1939;
+}
+
+a:visited {
+  color: #7a1230;
+}
+
+// ——— Headings —————————————————————————————————
+h1, h2, h3 {
+  color: #26374A;
+}
+
+// ——— Important Dates table ————————————————————
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0 1.5em;
+}
+
+table th {
+  background-color: #26374A;
+  color: #ffffff;
+  padding: 0.6em 1em;
+  text-align: left;
+  font-weight: 600;
+}
+
+table td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+table tr:nth-child(even) td {
+  background-color: #f8f5f5;
+}
+
+// ——— Section dividers —————————————————————————
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2.5em 0;
+}

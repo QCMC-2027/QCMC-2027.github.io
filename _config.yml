@@ -1,0 +1,18 @@
+title: QCMC 2027
+description: >-
+  The 17th International Conference on Quantum Communication,
+  Measurement and Computing. August 9–13, 2027 · University of Ottawa, Canada.
+baseurl: ""
+url: "https://qcmc2027.com"
+
+theme: minima
+
+minima:
+  list_title: "News"
+
+header_pages:
+  - about.md
+  - contact.md
+
+plugins:
+  - jekyll-feed
