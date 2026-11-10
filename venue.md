@@ -17,8 +17,8 @@ QCMC 2027 will be held at the **Learning Crossroads (CRX)** on the University of
 [CRX building information (uOttawa)](https://www.uottawa.ca/about-us/administration-services/facilities/campus-maps/building/learning-crossroads-crx)
 
 <div class="map">
-  <iframe title="Map showing the Learning Crossroads (CRX), University of Ottawa" src="https://www.openstreetmap.org/export/embed.html?bbox=-75.6880%2C45.4180%2C-75.6760%2C45.4240&amp;layer=mapnik&amp;marker=45.4210%2C-75.6820" loading="lazy"></iframe>
-  <small><a href="https://www.openstreetmap.org/?mlat=45.4210&amp;mlon=-75.6820#map=17/45.4210/-75.6820">View larger map</a></small>
+  <iframe title="Map showing the Learning Crossroads (CRX), University of Ottawa" src="https://www.openstreetmap.org/export/embed.html?bbox=-75.6874%2C45.4189%2C-75.6754%2C45.4249&amp;layer=mapnik&amp;marker=45.42194%2C-75.68136" loading="lazy"></iframe>
+  <small><a href="https://www.openstreetmap.org/?mlat=45.42194&amp;mlon=-75.68136#map=17/45.42194/-75.68136">View larger map</a></small>
 </div>
 
 ---
