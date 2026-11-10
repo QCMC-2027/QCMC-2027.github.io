@@ -14,9 +14,11 @@ list_title: "News"
 
 ## About QCMC 2027
 
-QCMC 2027 is the 17th International Conference on Quantum Communication, Measurement and Computing. The conference will be held **August 9–13, 2027** at the University of Ottawa, Ottawa, Canada. We anticipate approximately 300 participants, with a program featuring invited and contributed talks, poster sessions, sponsor exhibits, a banquet, and a conference excursion.
+QCMC 2027 is the 17th International Conference on Quantum Communication, Measurement and Computing. The conference will be held **August 9–13, 2027** at the University of Ottawa, Ottawa, Canada. The program will feature invited and contributed talks, poster sessions, sponsor exhibits, a banquet, and a conference excursion.
 
 The QCMC series was established in Paris in 1990 and has since held 16 conferences worldwide, most recently in Chennai, India (2024). QCMC 2027 is locally organized by the **University of Ottawa** (through [NexQT](https://nexqt.ca/)) and the **National Research Council Canada (NRC)**. The conference will also feature the [International Quantum Award](https://www.qcmc-conference.org/quantum-award.html), recognizing outstanding achievements in quantum science.
+
+*Interested in sponsoring QCMC 2027? See [sponsorship opportunities](/sponsors/).*
 
 ---
 
