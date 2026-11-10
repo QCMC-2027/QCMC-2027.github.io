@@ -13,6 +13,8 @@ minima:
 
 header_pages:
   - about.md
+  - venue.md
+  - sponsors.md
   - contact.md
 
 plugins:

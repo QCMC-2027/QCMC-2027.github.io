@@ -4,8 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-## Contact
-
 For inquiries about QCMC 2027, please contact the local organizing committee.
 
 **Email:** [info@qcmc2027.com](mailto:info@qcmc2027.com)

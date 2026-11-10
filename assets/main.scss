@@ -203,3 +203,121 @@ body {
   height: 90px;
   width: auto;
 }
+
+// ——— Photo hero (home) ————————————————————————
+// Text sits in the sky; Parliament shows below. Light tint only at the top,
+// so the Ottawa Tourism photo is not substantively altered.
+.hero--photo {
+  background-position: center 62%;
+  min-height: 560px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero--photo::before {
+  background: linear-gradient(to bottom, rgba(38, 55, 74, 0.45) 0%, rgba(38, 55, 74, 0.15) 45%, rgba(38, 55, 74, 0) 65%);
+}
+
+.hero--photo .hero-inner {
+  padding-top: 3.5em;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 600px) {
+  .hero--photo { min-height: 520px; background-position: 35% bottom; }
+  .hero--photo .hero-inner { padding-top: 1.5em; }
+  .hero--photo .hero-eyebrow { display: none; } // keep text in the sky on phones
+}
+
+// ——— Photo credits ————————————————————————————
+.photo-credit,
+.photo-credit a,
+.photo-credit a:visited {
+  font-size: 0.75rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hero .photo-credit {
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+  padding: 2px 6px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 3px;
+  text-shadow: none;
+}
+
+.hero .photo-credit:hover { text-decoration: underline; color: #ffffff; }
+
+// ——— Figures with credit overlay ——————————————
+.photo {
+  position: relative;
+  margin: 0 0 1.5em;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .photo-credit {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    padding: 2px 6px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+  }
+
+  .photo-credit a:hover { text-decoration: underline; }
+}
+
+// ——— Photo + text rows (Venue page) ————————————
+.media-row {
+  display: flex;
+  gap: 1.75em;
+  align-items: center;
+  margin-bottom: 2em;
+
+  > .photo { flex: 0 0 45%; margin: 0; }
+  > div { flex: 1; }
+  > div p:last-child { margin-bottom: 0; }
+}
+
+.media-row--reverse { flex-direction: row-reverse; }
+
+@media (max-width: 700px) {
+  .media-row,
+  .media-row--reverse { flex-direction: column; align-items: stretch; }
+}
+
+// ——— Map ——————————————————————————————————————
+.map {
+  margin: 1.25em 0 0.5em;
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 360px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  small { display: block; margin-top: 0.4em; }
+}
+
+// ——— Logo tiles ———————————————————————————————
+.organizers .logo-tile {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 22px;
+  box-sizing: border-box;
+}
+
+.organizers .logo-tile img { height: 56px; }
+
+.logo-tile--navy { background-color: #26374A; }

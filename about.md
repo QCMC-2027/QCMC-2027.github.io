@@ -12,7 +12,7 @@ QCMC 2027 is the **17th edition** of the series. Previous conferences have been 
 
 ## Organizing Institutions
 
-QCMC 2027 is locally organized by the **University of Ottawa** and the **National Research Council Canada (NRC)**, in cooperation with the QCMC Steering Committee.
+QCMC 2027 is locally organized by the **University of Ottawa** (through [NexQT](https://nexqt.ca/)) and the **National Research Council Canada (NRC)**, in cooperation with the QCMC Steering Committee.
 
 ## The International Quantum Award
 
