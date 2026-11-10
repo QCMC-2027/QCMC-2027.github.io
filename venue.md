@@ -6,7 +6,7 @@ permalink: /venue/
 
 <figure class="photo photo--wide">
   <img src="/assets/images/crx-building.webp" alt="The Learning Crossroads (CRX) building at the University of Ottawa at dusk" width="1400" height="934">
-  <figcaption class="photo-credit">Photo: University of Ottawa</figcaption>
+  <figcaption class="photo-credit"><a href="https://www.uottawa.ca/about-us/administration-services/facilities/campus-maps/building/learning-crossroads-crx">Photo: University of Ottawa</a></figcaption>
 </figure>
 
 ## Learning Crossroads (CRX)
